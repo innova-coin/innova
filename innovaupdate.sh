@@ -94,7 +94,7 @@ if [[ $(lsb_release -d) == *16.04* ]]; then
 	sudo chmod +x /usr/local/bin/innova-cli
 	echo -e "addnode=209.250.240.159:14520\naddnode=207.148.30.107:14520\naddnode=195.154.150.149:14520\naddnode=62.210.251.30:14520\naddnode=66.206.29.179:14520\naddnode=62.210.245.190:14520" >> /root/.innovacore/innova.conf
 	echo -e "Wallet Downloaded. Setting up your Node"
-	sudo innovad -deamon
+	sudo innovad -daemon
 	echo "PLEASE WAIT"
 	sleep 20
 	echo "Loading bootstrap"
@@ -123,7 +123,7 @@ elif [[ $(lsb_release -d) == *18.04* ]]; then
 	sudo chmod +x /usr/local/bin/innova-cli
 	echo -e "addnode=209.250.240.159:14520\naddnode=207.148.30.107:14520\naddnode=195.154.150.149:14520\naddnode=62.210.251.30:14520\naddnode=66.206.29.179:14520\naddnode=62.210.245.190:14520" >> /root/.innovacore/innova.conf
 	echo -e "Wallet Downloaded. Setting up your Node"
-	sudo innovad -deamon
+	sudo innovad -daemon
 	echo "PLEASE WAIT"
 	sleep 20
 	echo "Loading bootstrap"
@@ -152,7 +152,7 @@ elif [[ $(lsb_release -d) == *18.10* ]]; then
 	sudo chmod +x /usr/local/bin/innova-cli
 	echo -e "addnode=209.250.240.159:14520\naddnode=207.148.30.107:14520\naddnode=195.154.150.149:14520\naddnode=62.210.251.30:14520\naddnode=66.206.29.179:14520\naddnode=62.210.245.190:14520" >> /root/.innovacore/innova.conf
 	echo -e "Wallet Downloaded. Setting up your Node"
-	sudo innovad -deamon
+	sudo innovad -daemon
 	echo "PLEASE WAIT"
 	sleep 20
 	echo "Loading bootstrap"
